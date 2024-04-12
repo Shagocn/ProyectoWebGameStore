@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quartz Store</title>
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- NavBar Inicio -->
+      <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #498b47;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Main.html">
+            <img src="img/Quartz.svg" alt="Logo" width="100" height="30" class="d-inline-block align-text-top filter-white">  Store </a>
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Navbar/Ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Navbar/Novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../Navbar/Categorias.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../Categorias/Accion.html">Accion</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Arcade.html">Arcade</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Aventura.html">Aventura</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Deportes.html">Deportes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Estrategia.html">Estrategia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/RPG.html">RPG</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Shooter.html">Shooter</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Simulacion.html">Simulacion</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Categorias/Varios.html">Varios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Navbar/Compras.html">Mis Compras</a>
+            </li>
+            <li class="nav-item dropdown">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="Navbar/Carrito.html">Carrito</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Iniciar Sesion</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-dark btn-outline" type="submit">Buscar</button>
+            </form>
+          </div>
+          </div>
+      </nav>
+     <!-- NavBar  Fin -->
+
+
+          <!-- Carrousel inicio -->
+        
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner text-bg-dark">
+              
+              <div class="carousel-item active">
+                <a href="Juegos/game1.html">
+                  <img src="img/db4.webp" href="" class="d-block w-100 mx-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Diablo® IV <span class="badge text-bg-light">Nuevo</span></h5>
+                    <p>55.990</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="Juegos/game2.html">
+                  <img src="img/fc24.jpeg"  class="d-block w-100 mx-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>EA SPORTS™ FC 24 </h5>
+                    <p>45.990</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="Juegos/game3.html">
+                  <img src="img/hd2.webp" href="game3.html" class="d-block w-100 mx-auto" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>HELLDIVERS™ 2 <span class="badge text-bg-light">Oferta</span></h5>
+                    <p>20.990</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Carrousel fin -->
+        </div>
+      </div>
+    </main>
+    
+    <!-- Inicio Noticias -->
+    <div>
+      <h1>Noticias</h1>
+
+      <div class="card mb-3" style="max-width: 1920px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/mc2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Posible Lanzamiento de Minecraft 2 para 2026 </h5>
+              <p class="card-text">Hay rumores de que Mojang estaria trabajando en una posible secuela, la cual estaria preparando su lanzamiento junto a la pelicula que se encuentra en desarrollo.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 1920px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/hf3.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Gabe Newell habla sobre Half Life 3 </h5>
+              <p class="card-text">No existe.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 4 hours ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 1920px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/kotor.webp" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hay señales del nuevo remake de KOTOR</h5>
+              <p class="card-text">"Es obvio que estamos trabajando en ello", dijo. "Ha salido en la prensa en numerosas ocasiones. Lo que sí diré es que el juego está vivito y coleando, y que estamos centrados en asegurarnos de superar las expectativas de los consumidores" dice el CEO de Saber Interactive.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 6 days ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fin Noticias -->
+
+    <footer> <h1>Main Page</h1></footer>
+    <script
+      src="js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
