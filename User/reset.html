@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Login</title>
+	
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../css/my-login.css">
+		<link
+		  href="../css/bootstrap.min.css"
+		  rel="stylesheet"
+		  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+		  crossorigin="anonymous"
+		/>
+	 </head>
+
+	 <!-- NavBar Inicio -->
+	<header>
+
+    
+	<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #498b47;">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="../Main.html">
+		  <img src="../img/Quartz.svg" alt="Logo" width="100" height="30" class="d-inline-block align-text-top filter-white">  Store </a>
+		<button class="navbar-toggler" 
+				type="button" 
+				data-bs-toggle="collapse" 
+				data-bs-target="#navbarSupportedContent" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+  
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+			  <a class="nav-link" aria-current="page" href="../Menu/Ofertas.html">Ofertas</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../Menu/Novedades.html">Novedades</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="../Menu/Categorias.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+			  <ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="../Categorias/Accion.html">Accion</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Arcade.html">Arcade</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Aventura.html">Aventura</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Deportes.html">Deportes</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Estrategia.html">Estrategia</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/RPG.html">RPG</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Shooter.html">Shooter</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Simulacion.html">Simulacion</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="../Categorias/Varios.html">Varios</a></li>
+			  </ul>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../Menu/Compras.html">Mis Compras</a>
+		  </li>
+		  <li class="nav-item dropdown">
+		  
+		  <li class="nav-item">
+			  <a class="nav-link" href="../Menu/Carrito.html">Carrito</a>
+		  </li>
+			<li class="nav-item">
+				<a class="nav-link" href="../User/login.html">Iniciar Sesion</a>
+			</li>
+		  </ul>
+		  <form class="d-flex" role="search">
+			<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+			<button class="btn btn-dark btn-outline" type="submit">Buscar</button>
+		  </form>
+		</div>
+		</div>
+	</nav>
+	</header>
+    <!-- NavBar  Fin -->
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center align-items-center h-100">
+				<div class="card-wrapper">
+
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Reiniciar contraseña</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+								<div class="form-group">
+					
+									<label for="new-password">Nueva contraseña</label>
+									<input id="new-password" type="password" class="form-control" name="password" required autofocus data-eye>
+									<div class="invalid-feedback">
+										Contraseñaa requerida
+									</div>
+									<div class="form-text text-muted">
+										Asegurate de elegir una contraseña dificil pero facil de recordar
+									</div>
+								</div>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										Reinicar contraseña
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						<center>Copyright &copy; 2024 &mdash; Quartz Store</center>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">Quartz Company </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/my-login.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
